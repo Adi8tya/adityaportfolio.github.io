@@ -125,7 +125,7 @@ section{
 }
 
 .home .image img{
-   height: 50rem;
+   height: 45rem;
    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
    border-top: 3rem solid var(--primary-bg-color);
    border-right: 3rem solid var(--primary-bg-color);
