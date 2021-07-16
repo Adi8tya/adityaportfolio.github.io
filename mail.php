@@ -10,7 +10,7 @@ $to = "ak247000@gmail.com";
 $subject = "Mail From portfolio";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Subject =" . $message ."\r\n Message =". $textarea;
 
-$headers = "From: adi8tya.github.io/adityaportfolio.github.io/" . "\r\n" .
+$headers = "From: adi8tya.github.io/adityaportfolio.github.io" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
