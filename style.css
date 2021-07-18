@@ -101,6 +101,18 @@ body{
     transform: translateX(1rem);
 }
 
+.colorchange{
+    animation: colorAdi 1s infinite;
+}
+
+@keyframes colorAdi{
+    0% {color: blue;}
+    25% {color: black;}
+    50% {color: green;}
+    75% {color: khaki;}
+    100% {color: red;}
+}
+
 section{
     padding: 1rem;
     padding: 2rem 8%;
