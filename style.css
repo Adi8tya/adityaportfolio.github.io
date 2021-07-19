@@ -311,24 +311,24 @@ section{
 }
 
 .about .row .box:nth-child(1) .progress:nth-child(3) .bar span{
-    width: 70%;
-}
-
-.about .row .box:nth-child(1) .progress:nth-child(4) .bar span{
     width: 65%;
 }
 
+.about .row .box:nth-child(1) .progress:nth-child(4) .bar span{
+    width: 75%;
+}
+
 .about .row .box:nth-child(1) .progress:nth-child(5) .bar span{
-    width: 50%;
+    width: 70%;
 }
 
 
 .about .row .box:nth-child(2) .progress:nth-child(2) .bar span{
-    width: 70%;
+    width: 75%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(3) .bar span{
-    width: 60%;
+    width: 70%;
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(4) .bar span{
@@ -336,7 +336,7 @@ section{
 }
 
 .about .row .box:nth-child(2) .progress:nth-child(5) .bar span{
-    width: 50%;
+    width: 60%;
 }
 
 .about .row .box .exp-box{
