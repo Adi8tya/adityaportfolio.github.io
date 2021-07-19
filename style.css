@@ -282,7 +282,29 @@ section{
     border-radius: .3rem;
     background-color: var(--main-color);
     display: block;
+    animation: progress1 2.3s linear;
 }
+
+@keyframes progress1{
+    0%{
+        width: 0%;
+        background-color: rgb(202, 149, 252);
+    }
+    20%{
+        background-color: rgb(218, 190, 243);
+    }
+    40%{
+        background-color: rgb(139, 128, 237);
+    }
+    80%{
+        width: 100%;
+        background: rgb(140, 166, 238);
+    }
+    100%{
+        background-color: rgb(240, 69, 234);
+    }
+}
+
 
 .about .row .box:nth-child(1) .progress:nth-child(2) .bar span{
     width: 80%;
