@@ -282,7 +282,7 @@ section{
     border-radius: .3rem;
     background-color: var(--main-color);
     display: block;
-    animation: progress1 2.3s linear;
+    animation: progress1 4.3s linear;
 }
 
 @keyframes progress1{
