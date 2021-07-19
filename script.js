@@ -1,3 +1,8 @@
+ var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+
 $(document).ready(function(){
 
     $('#menu').click(function(){
@@ -27,6 +32,8 @@ $(document).ready(function(){
         $(this).toggleClass('fa-sun');
         $('body').toggleClass('dark-theme');
     });
+    
+
 
 
     // $('a[href*="#"]').on('click',function(e){
